@@ -146,10 +146,8 @@ const Layout = () => {
         </div>
       </div>
       <div className="right">
-        <div className="right-1">
           <Outlet />
-        </div>
-        <div className="right-1"></div>
+        {/* <div className="right-1"></div> */}
       </div>
     </div>
   );
