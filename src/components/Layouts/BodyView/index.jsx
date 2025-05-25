@@ -5,6 +5,8 @@ import body from "../../../assets/—Pngtree—3d anatomical model of a_20980986
 import lungs from "../../../assets/—Pngtree—red lung pink lung tube_3874739.png";
 import teeth from "../../../assets/—Pngtree—close-up of a perfectly white_20487178.png";
 import bone from "../../../assets/—Pngtree—toon bone_8357847.png";
+import { GiHieroglyphLegs } from "react-icons/gi";
+import { FaHeart } from "react-icons/fa";
 
 import { FaSearchPlus } from "react-icons/fa";
 
@@ -22,6 +24,14 @@ const BodyView = () => {
         <div className="right-body-bottom-left">
           <FaSearchPlus className="plus-search" />
           <img src={body} alt="body" />
+          <div className="healthy">
+            <FaHeart style={{color:"#FF0000",fontSize:"1.4rem"}}/>
+            <p>Healthly Heart</p>
+          </div>
+            <div className="healthy-legs">
+            <GiHieroglyphLegs style={{color:"#F1C27D",fontSize:"1.4rem"}}/>
+            <p>Healthly Heart</p>
+          </div>
         </div>
         <div className="right-body-bottom-right">
           <div className="right-body-bottom-right-1">
