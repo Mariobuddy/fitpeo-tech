@@ -7,6 +7,7 @@ import teeth from "../../../assets/—Pngtree—close-up of a perfectly white_20
 import bone from "../../../assets/—Pngtree—toon bone_8357847.png";
 import { GiHieroglyphLegs } from "react-icons/gi";
 import { FaHeart } from "react-icons/fa";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 import { FaSearchPlus } from "react-icons/fa";
 
@@ -64,6 +65,10 @@ const BodyView = () => {
               <div class="progress-fill" style={{backgroundColor:"#f97316"}}></div>
             </div>
           </div>
+           <div className="week-div" style={{marginTop:"1rem"}}>
+          <p>Details</p>
+          <FaArrowRightLong className="arrow-down" />
+        </div>
         </div>
       </div>
     </div>
