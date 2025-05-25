@@ -21,7 +21,7 @@
 }
 
 .left-one-div > h2 > span {
-  color: #3b3ff7;
+  color: #3e4a89;
 
 }
 
@@ -78,11 +78,14 @@
   margin-right: 1rem;
   height: 98vh;
   display: flex;
-
+width: calc(100%-21rem);
 }
 
 .right-1{
   width: 50%;
   border: 1px solid red;
   height: 100%;
+  padding: 4rem  2rem 4rem 3rem;
 }
+
+
