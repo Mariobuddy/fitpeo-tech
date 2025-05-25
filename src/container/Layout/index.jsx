@@ -131,7 +131,11 @@ const Layout = () => {
           </NavLink>
         </div>
       </div>
-      <div className="right"></div>
+      <div className="right">
+        <div className="right-1"></div>
+        <div className="right-1"></div>
+
+      </div>
     </div>
   );
 };
