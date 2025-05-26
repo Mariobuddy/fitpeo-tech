@@ -1,5 +1,7 @@
 import React from 'react'
 import "./index.css";
+import teeth from "../../assets/—Pngtree—close-up of a perfectly white_20487178.png";
+
 
 const Appointments = () => {
   return (
@@ -7,7 +9,7 @@ const Appointments = () => {
       <div class="appointment dentist">
         <div className='app_div_1'>
           <p class="title-dentist">Dentist</p>
-          <img src="" alt="img" />
+          <img src={teeth} alt="teeth" style={{width:"3rem",height:"3rem"}}/>
         </div>
         <div className='app_div_2'>
           <p class="time-dentist">09:00 - 11:00</p>
