@@ -78,12 +78,13 @@
   width: calc(100%-21rem);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .left {
     display: none;
   }
 
   .right{
     margin-left: 1rem;
+    flex-direction: column;
   }
 }

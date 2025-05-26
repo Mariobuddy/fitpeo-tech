@@ -172,3 +172,55 @@
   margin-left: 1rem;
   color: #3e4a89;
 }
+
+
+/* Responsive  */
+
+@media screen and (max-width: 1024px) {
+
+  .right-body-bottom{
+    flex-direction: column;
+    padding-left: 0;
+    gap: 30px;
+  }
+
+  .right-body-bottom-left > img{
+    height: 100%;
+    width: auto;
+  }
+
+  .healthy{
+    right: 2%;
+  }
+
+  .healthy-legs{
+    left: 2%;
+  }
+
+  .right-body-bottom-right-1{
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .right-body-bottom-left{
+    width: 100%;
+    padding: 0;
+  }
+
+  .healthy, .healthy-legs{
+    width: 12rem;
+  }
+
+  .healthy > p{
+    font-size: 1rem;
+  }
+
+  .healthy-legs > p{
+    font-size: 1rem;
+  }
+}
+
+/* Responsive  */
