@@ -73,3 +73,14 @@
 .sch_box_3{
     width: 40%;
 }
+
+@media screen and (max-width: 1024px) {
+    .sch_grp{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .sch_box_1, .sch_box_2, .sch_box_3{
+        width: 100%;
+    }
+}

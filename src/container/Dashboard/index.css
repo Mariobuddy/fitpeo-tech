@@ -18,5 +18,11 @@
     .right-1{
       width: 100% !important;
       padding: 0 !important;
+      height: auto !important;
+    }
+
+    .right-2{
+      width: 100%;
+      padding: 0;
     }
 }
