@@ -1,5 +1,7 @@
 import React from 'react'
 import "./index.css"
+import { FaHeart } from "react-icons/fa";
+
 
 const Schedules = () => {
   return (
@@ -33,7 +35,7 @@ const Schedules = () => {
                     <div className='upcoming_main_box sch_box_3'>
                         <div className='schedule-item'>
                             <div>Cardiologist</div>
-                            <img src="" alt="Img" />
+                            <FaHeart style={{color:"#FF0000",fontSize:"2.4rem"}}/>
                         </div>
                         <p className='schedule-time'>12:00 AM</p>
                     </div>
