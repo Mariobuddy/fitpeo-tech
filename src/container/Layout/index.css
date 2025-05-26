@@ -78,6 +78,14 @@
   width: calc(100%-21rem);
 }
 
+@media screen and (max-width: 1024px) {
+  .right{
+    height: 100vh;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+}
+
 @media (max-width: 800px) {
   .left {
     display: none;
@@ -85,6 +93,5 @@
 
   .right{
     margin-left: 1rem;
-    flex-direction: column;
   }
 }

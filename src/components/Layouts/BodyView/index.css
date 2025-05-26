@@ -184,9 +184,12 @@
     gap: 30px;
   }
 
+  .right-body-bottom-left{
+    width: 100%;
+  }
+
   .right-body-bottom-left > img{
     height: 100%;
-    width: auto;
   }
 
   .healthy{
@@ -208,6 +211,7 @@
   .right-body-bottom-left{
     width: 100%;
     padding: 0;
+    height: auto;
   }
 
   .healthy, .healthy-legs{
@@ -221,6 +225,14 @@
   .healthy-legs > p{
     font-size: 1rem;
   }
+
+
 }
+
+/* @media screen and (max-width: 600px) {
+  .right-body-bottom-left > img{
+    width: 100%;
+  }
+} */
 
 /* Responsive  */
