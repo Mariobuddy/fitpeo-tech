@@ -16,6 +16,7 @@
 @media screen and (max-width: 1024px) {
   .right-1{
     width: 100% !important;
+    height: auto !important;
   }
 
   .right-2{
