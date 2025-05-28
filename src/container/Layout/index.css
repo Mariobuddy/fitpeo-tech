@@ -112,14 +112,20 @@
 
   .right {
     /* margin-left: 0.5rem; */
-    margin-left: 0;
+    /* margin-left: 0; */
     /* width: 95%; */
-    width: 100%;
-    margin-right: 0rem;
+    /* width: 100%;
+    margin-right: 0rem; */
+
+    margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        margin-top: 36px;
+
   }
 
   .mobile {
-    display: inline-flex;
+    /* display: inline-flex;
     height: 100%;
     justify-content: space-between;
     align-items: center;
@@ -127,7 +133,20 @@
     position: fixed;
     top: -38rem;
     z-index: 99999999;
-    right: 1rem;
+    right: 1rem; */
+            align-items: center;
+        display: block;
+        /* height: 100%; */
+        /* justify-content: space-between; */
+        /* margin-left: 0; */
+        /* position: fixed; */
+        /* right: 1rem; */
+        /* top: 0; */
+        z-index: 99999999;
+        margin-bottom: 10px;
+        position: fixed;
+        right: 11px;
+        top: 8px;
   }
 
   .logo1 {
