@@ -1,0 +1,156 @@
+.calendar-add {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  background-color: #3e4a89;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar-child-1 {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0rem 2rem;
+}
+
+.calendar-add-icon {
+  color: #f9f9f9;
+  font-size: 2.4rem;
+}
+
+.calendar-emoji {
+  background-color: #0bd9c4;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.calendar-main-div {
+}
+
+.calendar-child-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding: 2rem 4rem 1rem 4rem;
+}
+
+.calendar-child-2 > h3 {
+  color: #3e4a89;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.arrow-calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-calendar-1 {
+  color: #3e4a89;
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+
+.arrow-calendar-2 {
+  color: #3e4a89;
+  font-size: 2.4rem;
+}
+
+.calendar-child-3 {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calendar-child-3-inner {
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem 2.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.calendar-child-3-inner > h2 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #3e4a89;
+  margin-bottom: 1rem;
+}
+
+.calendar-child-3-inner > h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #3e4a89;
+  margin-bottom: 1rem;
+}
+
+.calendar-child-3-inner > h5 {
+  font-size: 1.2rem;
+  color: #3e4a89;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  position: relative;
+  width: 6rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+
+.circle {
+  background-color: #f9f9f9;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  bottom: 0.3rem;
+}
+
+.line-calendar {
+  height: 0.1rem;
+  width: 2rem;
+  background-color: #3e4a89;
+}
+
+.multi-show-cal {
+  position: absolute;
+  background-color: #4b49ac55;
+  top: 0;
+  left: 0;
+  width: 17rem;
+  height: 3rem;
+  border-radius: 1rem;
+  /* opacity: 0.4; */
+  z-index: -1;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .multi-show-cal{
+    width: 14rem;
+  }
+  
+}
+
+
+@media screen and (max-width: 800px) {
+  .multi-show-cal{
+    width: 100%;
+  }
+}

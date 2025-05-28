@@ -1,12 +1,38 @@
 .right-1 {
-  width: fit-content;
+  width: 50%;
   height: 100%;
   padding: 4rem 2rem 4rem 3rem;
 }
 
 .right-2 {
   background-color: #f6f9fc;
-  border: 1px solid red;
   width: 50%;
   border-radius: 0rem 2rem 2rem 0rem;
+  padding: 4rem 2rem 4rem 3rem;
+
+
+}
+
+@media screen and (max-width: 1024px) {
+  .right-1{
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .right-2{
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+    .right-1{
+      padding: 0 !important;
+      height: auto !important;
+    }
+
+    .right-2{
+      width: 100%;
+      padding: 0;
+    }
 }

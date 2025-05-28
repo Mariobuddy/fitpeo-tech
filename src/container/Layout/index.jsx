@@ -9,11 +9,33 @@ import { BsChatSquareDotsFill } from "react-icons/bs";
 import { IoCall } from "react-icons/io5";
 import { IoMdSettings } from "react-icons/io";
 import { NavLink, useNavigate, Outlet } from "react-router-dom";
-import SearchBar from "../../components/Layouts/SearchBar";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { AiOutlineClose } from "react-icons/ai";
 const Layout = () => {
   const [currentNav, setCurrentnav] = useState("dashboard");
 
   const navigate = useNavigate();
+
+  const [size, setSize] = useState(false);
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    let resizeRes = () => {
+      if (window.innerWidth <= 768) {
+        setSize(true);
+      } else {
+        setSize(false);
+      }
+    };
+    window.addEventListener("resize", resizeRes);
+    return () => {
+      window.removeEventListener("resize", resizeRes);
+    };
+  }, []);
+
+  let Toggle = () => {
+    setShow(!show);
+  };
 
   useEffect(() => {
     navigate("/dashboard");
@@ -24,7 +46,12 @@ const Layout = () => {
   };
   return (
     <div className="main-div">
-      <div className="left">
+      <div
+        className="left"
+        style={{
+          display: show || (window.innerWidth > 768 && !size) ? "flex" : "none",
+        }}
+      >
         <div className="left-one-div">
           <h2>
             Health<span>care.</span>
@@ -145,9 +172,15 @@ const Layout = () => {
           </NavLink>
         </div>
       </div>
+      <div className="mobile">
+        {show ? (
+          <AiOutlineClose className="logo1" onClick={Toggle} />
+        ) : (
+          <GiHamburgerMenu className="logo1" onClick={Toggle} />
+        )}
+      </div>
       <div className="right">
-          <Outlet />
-        {/* <div className="right-1"></div> */}
+        <Outlet />
       </div>
     </div>
   );

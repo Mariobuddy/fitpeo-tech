@@ -1,0 +1,83 @@
+.appointments{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.appointment{
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.dentist {
+    background-color: #4B49AC;
+    color: white;
+}
+
+.app_div_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.app_div_2{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.physiotherapy {
+  background-color: #E7ECFF;
+  width: 290px;
+}
+
+
+.title-dentist{
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.title-physio{
+    font-size: 14px;
+    font-weight: 500;
+    color: #2c2b64;
+}
+
+.time-dentist{
+    font-size: 12px;
+    font-weight: 400;
+    color: #CFCFE8;
+}
+
+.time-physio{
+    font-size: 12px;
+    font-weight: 400;
+    color: #2c2b64;
+}
+
+.doctor {
+  font-size: 12px;
+    font-weight: 400;
+    color: #CFCFE8;
+    white-space: nowrap;
+}
+
+.doctor-physio{
+    font-size: 12px;
+    font-weight: 400;
+    color: #2c2b64;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1024px) {
+    .appointments{
+        flex-direction: column;
+    }
+
+    .appointment{
+        width: 100%;
+    }
+}

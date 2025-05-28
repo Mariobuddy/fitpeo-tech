@@ -172,3 +172,76 @@
   margin-left: 1rem;
   color: #3e4a89;
 }
+
+
+/* Responsive  */
+
+@media screen and (max-width: 1024px) {
+
+  .right-body-bottom{
+    flex-direction: column;
+    padding-left: 0;
+    gap: 30px;
+  }
+
+  .right-body-bottom-left{
+    width: 100%;
+  }
+
+  .right-body-bottom-left > img{
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .right-body-bottom-right-1{
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .healthy{
+    right: 7%;
+  }
+
+  .healthy-legs{
+    left: 7%;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .right-body-bottom-left{
+    width: 100%;
+    padding: 0;
+    height: auto;
+  }
+
+  .healthy, .healthy-legs{
+    width: 12rem;
+  }
+
+   .healthy{
+    right: 2%;
+  }
+
+  .healthy-legs{
+    left: 2%;
+  }
+
+  .healthy > p{
+    font-size: 1rem;
+  }
+
+  .healthy-legs > p{
+    font-size: 1rem;
+  }
+
+
+}
+
+/* @media screen and (max-width: 600px) {
+  .right-body-bottom-left > img{
+    width: 100%;
+  }
+} */
+
+/* Responsive  */
